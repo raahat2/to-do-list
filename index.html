@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="inputWraper">
+        <input type="text" class="input" placeholder="New Task..." id="task" />
+        <button class="add" id="add" onclick="storeTask()">ADD</button>
+        <button class="ret" id="ret" onclick="ret()">x</button>
+      </div>
+      <p id="inputError"></p>
+      <div class="status" id="status">
+        <button class="link active" id="link" onclick="setActive('all')">
+          ALL
+        </button>
+        <button class="link" id="link" onclick="setActive('active')">
+          ACTIVE
+        </button>
+        <button class="link" id="link" onclick="setActive('completed')">
+          COMPLETED
+        </button>
+      </div>
+      <div class="listAll" id="taskContainer"></div>
+    </div>
+  </body>
+  <script src="./js/javascript.js"></script>
+</html>

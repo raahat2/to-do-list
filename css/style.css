@@ -1,0 +1,130 @@
+*{
+    box-sizing: border-box;
+}
+html{
+    height: 100%;
+}
+body{
+    height: 100%;
+    background-color: #FFD09C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+}
+.container{
+    background-color: white;
+    padding: 35px;
+    border-radius: 5px;
+    min-width:60%;
+}
+.container p{
+    margin-top: 0px;
+    font-size: 13px;
+    color: red;
+}
+.inputWraper .input {
+    width: 500px;
+    border: 1px solid #BDBDBD;
+    border-radius: 3px;
+    padding: 9px;
+    width: 90%;
+}
+.inputWraper{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.inputWraper .add {
+    padding: 9px;
+    color: white;
+    border: none;
+    background-color: #53B4D3;
+    border-radius: 3px;
+    box-shadow: 0px 2px 2px #d3ebf3;
+    font-size: 13px;
+    margin-left: 6px;
+    width: 15%;
+}
+.container .status{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+
+    
+}
+.link{
+    text-decoration: none;
+    margin-left: 3px;
+    padding-bottom:10px ;
+    background: none;
+    border: none;
+    font-size: 13px;
+    color: #737373;
+    border-bottom:3xpx solid  white;
+    width:17%;
+}
+.active{
+    color: #53B4D3;
+    border-bottom:3px solid  #53B4D3;
+
+}
+.task_container{
+    min-width: 90%;
+}
+.link:hover{
+    color: #53B4D3;
+    border-bottom:3xpx solid  #53B4D3;
+}
+.newTask{
+    background-color: #F3F6F7;
+    padding:9px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+  
+.buttons .edit{
+    padding: 9px;
+    color: white;
+    border: none;
+    background-color: #53B4D3;
+    border-radius: 3px;
+    box-shadow: 0px 2px 2px #d3ebf3;
+    font-size: 12px;
+}
+.buttons .delete{
+    padding: 9px;
+    color: white;
+    border: none;
+    background-color: #e85252;
+    border-radius: 3px;
+    box-shadow: 0px 2px 2px #d3ebf3;
+    font-size: 12px;
+}
+.ret{
+    padding: 5px;
+    color: white;
+    border: none;
+    background-color: #e13f4a;
+    border-radius: 3px;
+    box-shadow: 0px 2px 2px #d3ebf3;
+    font-size: 13px;
+    display: none;
+    margin-left: 6px;
+    width:10%;
+
+}
+.checkbox:checked+label.label{
+    text-decoration: line-through;
+}
+.div{
+    display: flex;
+    align-items: flex-start;
+    word-break: break-all;
+    white-space: pre-wrap;
+}
+.buttons{
+    min-width: 11%;
+}
